@@ -2,9 +2,6 @@
   'use strict';
   $(document).ready(init);
   function init() {
-    $(function() {
-      $('#zip').focus();
-    });
     initMap(36, -86, 4);
     $('#add').click(show);
     $('#add').click(getJSON);
